@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and environment
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Streamlit/IDE
+.idea/
+.vscode/
+*.swp
+
+# App data (will be rebuilt on the cloud instance)
+obsidian.duckdb
+obsidian_graph.gpickle
+*.db
+*.duckdb
+*.log
+data/
+
+# OS
+.DS_Store
+Thumbs.db
